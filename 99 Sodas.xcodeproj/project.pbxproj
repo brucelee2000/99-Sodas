@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7459A891A29B14400241BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7459A881A29B14400241BAC /* AppDelegate.swift */; };
+		A7459A8B1A29B14400241BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7459A8A1A29B14400241BAC /* ViewController.swift */; };
+		A7459A8E1A29B14400241BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7459A8C1A29B14400241BAC /* Main.storyboard */; };
+		A7459A901A29B14400241BAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7459A8F1A29B14400241BAC /* Images.xcassets */; };
+		A7459A931A29B14400241BAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7459A911A29B14400241BAC /* LaunchScreen.xib */; };
+		A7459A9F1A29B14400241BAC /* _9_SodasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7459A9E1A29B14400241BAC /* _9_SodasTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7459A991A29B14400241BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7459A7B1A29B14400241BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7459A821A29B14400241BAC;
+			remoteInfo = "99 Sodas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7459A831A29B14400241BAC /* 99 Sodas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "99 Sodas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7459A871A29B14400241BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7459A881A29B14400241BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7459A8A1A29B14400241BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7459A8D1A29B14400241BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7459A8F1A29B14400241BAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7459A921A29B14400241BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7459A981A29B14400241BAC /* 99 SodasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "99 SodasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7459A9D1A29B14400241BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7459A9E1A29B14400241BAC /* _9_SodasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9_SodasTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7459A801A29B14400241BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7459A951A29B14400241BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7459A7A1A29B14400241BAC = {
+			isa = PBXGroup;
+			children = (
+				A7459A851A29B14400241BAC /* 99 Sodas */,
+				A7459A9B1A29B14400241BAC /* 99 SodasTests */,
+				A7459A841A29B14400241BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7459A841A29B14400241BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7459A831A29B14400241BAC /* 99 Sodas.app */,
+				A7459A981A29B14400241BAC /* 99 SodasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7459A851A29B14400241BAC /* 99 Sodas */ = {
+			isa = PBXGroup;
+			children = (
+				A7459A881A29B14400241BAC /* AppDelegate.swift */,
+				A7459A8A1A29B14400241BAC /* ViewController.swift */,
+				A7459A8C1A29B14400241BAC /* Main.storyboard */,
+				A7459A8F1A29B14400241BAC /* Images.xcassets */,
+				A7459A911A29B14400241BAC /* LaunchScreen.xib */,
+				A7459A861A29B14400241BAC /* Supporting Files */,
+			);
+			path = "99 Sodas";
+			sourceTree = "<group>";
+		};
+		A7459A861A29B14400241BAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7459A871A29B14400241BAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7459A9B1A29B14400241BAC /* 99 SodasTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7459A9E1A29B14400241BAC /* _9_SodasTests.swift */,
+				A7459A9C1A29B14400241BAC /* Supporting Files */,
+			);
+			path = "99 SodasTests";
+			sourceTree = "<group>";
+		};
+		A7459A9C1A29B14400241BAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7459A9D1A29B14400241BAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7459A821A29B14400241BAC /* 99 Sodas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7459AA21A29B14400241BAC /* Build configuration list for PBXNativeTarget "99 Sodas" */;
+			buildPhases = (
+				A7459A7F1A29B14400241BAC /* Sources */,
+				A7459A801A29B14400241BAC /* Frameworks */,
+				A7459A811A29B14400241BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "99 Sodas";
+			productName = "99 Sodas";
+			productReference = A7459A831A29B14400241BAC /* 99 Sodas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7459A971A29B14400241BAC /* 99 SodasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7459AA51A29B14400241BAC /* Build configuration list for PBXNativeTarget "99 SodasTests" */;
+			buildPhases = (
+				A7459A941A29B14400241BAC /* Sources */,
+				A7459A951A29B14400241BAC /* Frameworks */,
+				A7459A961A29B14400241BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7459A9A1A29B14400241BAC /* PBXTargetDependency */,
+			);
+			name = "99 SodasTests";
+			productName = "99 SodasTests";
+			productReference = A7459A981A29B14400241BAC /* 99 SodasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7459A7B1A29B14400241BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Yosemite;
+				TargetAttributes = {
+					A7459A821A29B14400241BAC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A7459A971A29B14400241BAC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A7459A821A29B14400241BAC;
+					};
+				};
+			};
+			buildConfigurationList = A7459A7E1A29B14400241BAC /* Build configuration list for PBXProject "99 Sodas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7459A7A1A29B14400241BAC;
+			productRefGroup = A7459A841A29B14400241BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7459A821A29B14400241BAC /* 99 Sodas */,
+				A7459A971A29B14400241BAC /* 99 SodasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7459A811A29B14400241BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7459A8E1A29B14400241BAC /* Main.storyboard in Resources */,
+				A7459A931A29B14400241BAC /* LaunchScreen.xib in Resources */,
+				A7459A901A29B14400241BAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7459A961A29B14400241BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7459A7F1A29B14400241BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7459A8B1A29B14400241BAC /* ViewController.swift in Sources */,
+				A7459A891A29B14400241BAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7459A941A29B14400241BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7459A9F1A29B14400241BAC /* _9_SodasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7459A9A1A29B14400241BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7459A821A29B14400241BAC /* 99 Sodas */;
+			targetProxy = A7459A991A29B14400241BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7459A8C1A29B14400241BAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7459A8D1A29B14400241BAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7459A911A29B14400241BAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7459A921A29B14400241BAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7459AA01A29B14400241BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7459AA11A29B14400241BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7459AA31A29B14400241BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "99 Sodas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7459AA41A29B14400241BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "99 Sodas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7459AA61A29B14400241BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "99 SodasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99 Sodas.app/99 Sodas";
+			};
+			name = Debug;
+		};
+		A7459AA71A29B14400241BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "99 SodasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99 Sodas.app/99 Sodas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7459A7E1A29B14400241BAC /* Build configuration list for PBXProject "99 Sodas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7459AA01A29B14400241BAC /* Debug */,
+				A7459AA11A29B14400241BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7459AA21A29B14400241BAC /* Build configuration list for PBXNativeTarget "99 Sodas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7459AA31A29B14400241BAC /* Debug */,
+				A7459AA41A29B14400241BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7459AA51A29B14400241BAC /* Build configuration list for PBXNativeTarget "99 SodasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7459AA61A29B14400241BAC /* Debug */,
+				A7459AA71A29B14400241BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7459A7B1A29B14400241BAC /* Project object */;
+}
